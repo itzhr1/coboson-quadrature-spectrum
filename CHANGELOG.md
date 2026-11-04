@@ -1,3 +1,19 @@
+# v10.14 (4 November 2026): Ref. Sorella2026 as published; acknowledgment
+
+Both versions. Ref. Sorella2026 is cited as the Physics Letters A article alone (arXiv number dropped).
+The comparison with the values of its first arXiv version is removed from Sec. 9 (now: the values were
+confirmed by the author of that reference; the remark f(1) != f(pi/2) is kept), and "correcting a
+published value" is removed from the roadmap of the Introduction. The acknowledgment says that a
+correction of that reference has been made (author's wording). No other change.
+
+# v10.13 (4 November 2026): repository and archive identifiers
+
+The repository is public at https://github.com/itzhr1/coboson-quadrature-spectrum and release v10.12 is
+archived at Zenodo (concept DOI 10.5281/zenodo.23960383, version DOI 10.5281/zenodo.23960384). Both
+versions: a closing paragraph of Appendix E gives the repository and the concept DOI. README: DOI badge,
+"Citing" section, the release item on the DOI removed. CITATION.cff: doi, repository-code and identifiers.
+No other change.
+
 # v10.12 (4 November 2026): review of v10.11, published reference for Sorella (batch 11)
 
 Added `.zenodo.json` (Zenodo metadata for GitHub releases) and a README note on archiving.

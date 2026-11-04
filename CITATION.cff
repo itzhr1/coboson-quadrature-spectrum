@@ -2,9 +2,18 @@ cff-version: 1.2.0
 message: "If you use this code or data, please cite the paper and this repository."
 title: "Discrete quadrature spectrum of composite bosons: code and data"
 type: software
-version: "10.12"
+version: "10.14"
 date-released: "2026-11-04"
 license: MIT
+doi: 10.5281/zenodo.23960383
+repository-code: "https://github.com/itzhr1/coboson-quadrature-spectrum"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.23960383
+    description: "Concept DOI (all versions)"
+  - type: doi
+    value: 10.5281/zenodo.23960384
+    description: "Version DOI of release v10.12"
 authors:
   - family-names: Roditi
     given-names: Itzhak

@@ -1,5 +1,5 @@
 {
-  "revision": "v10.12",
+  "revision": "v10.14",
   "date": "2026-11-04",
   "runtime": {
     "python": "3.13.17",
@@ -16,15 +16,15 @@
   "generated_blocks": {
     "count": 10,
     "files": [
-      "manuscript/coboson_paper_v10_12.tex",
-      "manuscript/undergrad_version_v10_12.tex"
+      "manuscript/coboson_paper_v10_14.tex",
+      "manuscript/undergrad_version_v10_14.tex"
     ],
     "all_match_generator": true
   },
   "independent_checks": {
     "figure5_points": 50,
     "figure5_passed": true,
-    "independent_review_rerun": "validation/independent_review_results.json; rerun on v10.12 (data unchanged)",
+    "independent_review_rerun": "validation/independent_review_results.json; rerun on v10.14 (data unchanged)",
     "scripts": [
       "code/independent/verify_cutoff_curves.py",
       "code/independent/verify_rank4_flat.py",
@@ -35,13 +35,13 @@
   },
   "latex": {
     "compiler": "sources: pdflatex (latexmk -pdf) with lmodern + microtype; distributed PDFs: XeLaTeX with the Latin Modern OpenType fonts (all fonts embedded with Unicode maps)",
-    "coboson_paper_v10_12": {
+    "coboson_paper_v10_14": {
       "pages": 27,
       "bibliography_entries": 43,
       "overfull_boxes": 0,
       "undefined_references": 0
     },
-    "undergrad_version_v10_12": {
+    "undergrad_version_v10_14": {
       "pages": 32,
       "bibliography_entries": 43,
       "overfull_boxes": 0,

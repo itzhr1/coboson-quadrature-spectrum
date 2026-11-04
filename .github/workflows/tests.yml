@@ -18,7 +18,7 @@ jobs:
       - name: generated blocks reproduce
         env: { OPENBLAS_NUM_THREADS: "1", OMP_NUM_THREADS: "1" }
         run: |
-          cp manuscript/coboson_paper_v10_12.tex /tmp/a.tex && python code/make_assets.py --manuscript /tmp/a.tex && diff -q manuscript/coboson_paper_v10_12.tex /tmp/a.tex
-          cp manuscript/undergrad_version_v10_12.tex /tmp/b.tex && python code/make_assets.py --manuscript /tmp/b.tex && diff -q manuscript/undergrad_version_v10_12.tex /tmp/b.tex
+          cp manuscript/coboson_paper_v10_14.tex /tmp/a.tex && python code/make_assets.py --manuscript /tmp/a.tex && diff -q manuscript/coboson_paper_v10_14.tex /tmp/a.tex
+          cp manuscript/undergrad_version_v10_14.tex /tmp/b.tex && python code/make_assets.py --manuscript /tmp/b.tex && diff -q manuscript/undergrad_version_v10_14.tex /tmp/b.tex
       - name: independent Figure 5 check
         run: python code/independent/verify_cutoff_curves.py

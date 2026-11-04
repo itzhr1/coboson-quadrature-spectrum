@@ -7,7 +7,7 @@ export OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1
 echo "== unit tests"
 python -m unittest discover -s code -p tests.py -v 2>&1 | tee validation/tests.log
 echo "== generated blocks (must print no differences)"
-for f in coboson_paper_v10_12 undergrad_version_v10_12; do
+for f in coboson_paper_v10_14 undergrad_version_v10_14; do
   cp manuscript/$f.tex /tmp/$f.regen.tex
   python code/make_assets.py --manuscript /tmp/$f.regen.tex
   diff -q manuscript/$f.tex /tmp/$f.regen.tex && echo "$f: all generated blocks unchanged"

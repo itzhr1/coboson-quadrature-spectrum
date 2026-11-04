@@ -1,25 +1,25 @@
 {
-  "revision": "v10.12",
+  "revision": "v10.14",
   "date": "2026-11-04",
   "previous_revision": {
-    "name": "v10.11",
-    "archive": "v10_11.zip",
-    "archive_sha256": "883aa347b879e63d51d1e6dba47336b7f8f9c6ae68741afb40fca218b9e19d3d",
-    "coboson_paper_v10_11.tex_sha256": "3cf6551fe3f1442bf2c87af4f62f500b0bd90583d82d655f4637967f0d333bb2",
-    "undergrad_version_v10_11.tex_sha256": "897f6b74e8d03b206fd7de01a26bb20cf97c4cca285a7347b41dba98a34e979a"
+    "name": "v10.13",
+    "archive": "coboson_paper_v10_13_repo.zip",
+    "archive_sha256": "7ce18b235c06cfa45e46b545e9c8cc432152ca002703d5be769cff08f87afd3e",
+    "coboson_paper_v10_13.tex_sha256": "3bf154f445a14816b7b6edb4e2d484399030f86987fa3ddc431ffdacedff8d4a",
+    "undergrad_version_v10_13.tex_sha256": "54ffe75a4230994d6c34fd239426cb81adfc290d38d2e9c6cea213c310dc9083"
   },
   "current_manuscripts": {
-    "coboson_paper_v10_12.tex": "7e2347847e2978fbec43cec9f5393f58b18b748d4bd4bbf95a91b81fa2fb3197",
-    "undergrad_version_v10_12.tex": "b93d457f5def40266f0ce08bcbcbbc9286ce7473dac3e8f346cd9897de5511d9",
-    "coboson_paper_v10_12.pdf": "3739f3eea119f5db29c907b43e000f17755fd4b02e5d083d2b9839430507dee9",
-    "undergrad_version_v10_12.pdf": "fd60857b8081f104a6d82e926f77ecd393e73b3ec10c90626e086f88b553fb29",
+    "coboson_paper_v10_14.tex": "0c20b4078a34f696a609c6a3643d332d78088ceb717ca1071fbd268c47577f5a",
+    "undergrad_version_v10_14.tex": "325cfad12aa6e5926b3fd5474f3a5e94ec3069e75ffb8e2bf79721fd0980139e",
+    "coboson_paper_v10_14.pdf": "6a59b6c63e920063da83e16bac82ca344339d3adb5612331c1789fce23418c15",
+    "undergrad_version_v10_14.pdf": "ce76b723ebaadeed8b88f5a91827f99319d70cf7fbf94820a896a496fc82767a",
     "figures/figure5_cutoff.tex": "9c659be3c778f9ee32d10a32ee100d05ec4d678fb7339b95c046bbdab2ba717a",
     "figures/figure5_cutoff.pdf": "23f4db5ea934b380ef9728cbf2c44f241eee5af1bc6b6149cbdab35c1073f59b"
   },
   "code": {
     "code/bell_raw.py": "791377a1da2fe13c2bfbee82b96e3626929941a729a6da23291daca8437e1919",
     "code/flatscan.py": "58d33c8896573cd8f0aed71597f53601e6562cafe3a8ffbeb24816519dbaafc9",
-    "code/independent/independent_review_v5.py": "df93ffee1d71c690916aee6099bdd20efdedeb4e6bc6df08c65df0f2fc89726b",
+    "code/independent/independent_review_v5.py": "21ea6b0cac8859ff29f3c6eff84cea8cd8681e88b8f95608638c8b16ca7421f9",
     "code/independent/verify_cutoff_curves.py": "3b0f66000deb83ad2d37169454fd5d931b30f60fc4be3bbdfd8fb8ca318f39f1",
     "code/independent/verify_expansions.py": "bc9717d840968440cd47f822ece601200744dba3cbf4c581df57db6e02164a5a",
     "code/independent/verify_rank4_flat.py": "72dc8e55ad67ff2d51b6a27f2a08c57b191cacf13854cc7b5e8351565c3aa0b4",

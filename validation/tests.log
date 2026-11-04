@@ -16,6 +16,6 @@ test_reject_invalid_input (tests.MathematicsTests.test_reject_invalid_input) ...
 test_smooth_bounds_and_sign_margin (tests.MathematicsTests.test_smooth_bounds_and_sign_margin) ... ok
 
 ----------------------------------------------------------------------
-Ran 16 tests in 0.163s
+Ran 16 tests in 0.160s
 
 OK

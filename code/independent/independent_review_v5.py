@@ -91,6 +91,6 @@ out['nonflat_stability']={}
 for z0 in [.5,.6]:
  rows=[d for d in nf if d['z']==z0 and 13<=d['S']<=19]
  out['nonflat_stability'][str(z0)]={key:{'min':min(d[key] for d in rows),'max':max(d[key] for d in rows),'span':max(d[key] for d in rows)-min(d[key] for d in rows)} for key in ['p_0.4','p_0.6','t_0.4','t_0.6']}
-out['manuscript_sha256']=hashlib.sha256((ROOT/'manuscript/coboson_paper_v10_12.tex').read_bytes()).hexdigest()
+out['manuscript_sha256']=hashlib.sha256((ROOT/'manuscript/coboson_paper_v10_14.tex').read_bytes()).hexdigest()
 (ROOT/'validation/independent_review_results.json').write_text(json.dumps(out,indent=2)+'\n')
 print(json.dumps(out,indent=2))
