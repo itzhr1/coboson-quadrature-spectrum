@@ -1,0 +1,21 @@
+test_corrected_protocol_is_tsirelson_when_p_positive (tests.BellRawTests.test_corrected_protocol_is_tsirelson_when_p_positive) ... ok
+test_flat_ranks_against_archived_scan (tests.BellRawTests.test_flat_ranks_against_archived_scan) ... ok
+test_rank4_examples_against_independent_values (tests.BellRawTests.test_rank4_examples_against_independent_values) ... ok
+test_bound_values_and_no_qubit_model (tests.MathematicsTests.test_bound_values_and_no_qubit_model) ... ok
+test_complex_linear_transform_against_direct_quadratures (tests.MathematicsTests.test_complex_linear_transform_against_direct_quadratures) ... ok
+test_dense_lanczos_and_signed_targets (tests.MathematicsTests.test_dense_lanczos_and_signed_targets) ... ok
+test_displacement_against_exponentials (tests.MathematicsTests.test_displacement_against_exponentials) ... ok
+test_edge_conventions_and_mass (tests.MathematicsTests.test_edge_conventions_and_mass) ... ok
+test_eight_mode_and_zero_cutoff (tests.MathematicsTests.test_eight_mode_and_zero_cutoff) ... ok
+test_equal_moment_examples (tests.MathematicsTests.test_equal_moment_examples) ... ok
+test_field_correlation (tests.MathematicsTests.test_field_correlation) ... ok
+test_harmonic_product_against_direct_dicke_matrices (tests.MathematicsTests.test_harmonic_product_against_direct_dicke_matrices) ... ok
+test_mixedness_and_K_measure_not_sufficient (tests.MathematicsTests.test_mixedness_and_K_measure_not_sufficient) ... ok
+test_pauli_projector_and_nested_cutoffs (tests.MathematicsTests.test_pauli_projector_and_nested_cutoffs) ... ok
+test_reject_invalid_input (tests.MathematicsTests.test_reject_invalid_input) ... ok
+test_smooth_bounds_and_sign_margin (tests.MathematicsTests.test_smooth_bounds_and_sign_margin) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.175s
+
+OK

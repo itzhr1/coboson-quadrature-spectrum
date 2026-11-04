@@ -1,0 +1,5 @@
+# Minimal runtime for the calculation scripts and tests.
+numpy>=1.26
+scipy>=1.11
+# Only for code/independent/verify_expansions.py and independent_review_v5.py.
+sympy>=1.12

@@ -1,0 +1,54 @@
+{
+  "S": 13,
+  "z": 0.7,
+  "omitted_weight": 0.009688901040699992,
+  "status": "finite-mode numerical estimates; compare steps and modes separately",
+  "results": [
+    {
+      "0.4": {
+        "t": 0.6245375160016199,
+        "mx": 0.4515057483798345,
+        "mz": 0.32140092206045084,
+        "p": 0.0207227788430328,
+        "projector_vector_consistency": 0.0,
+        "mx_consistency": 1.1102230246251565e-16,
+        "pauli_cross_diagnostic": 3.5128150388530344e-17,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.0022603196215257304,
+        "method": "dense_even_sector",
+        "dimension": 4096,
+        "eigen_residual_inf": 1.1124671717150622e-13,
+        "near_target_weights": {
+          "-1.0": 0.04215089028599214,
+          "-0.5": 0.08114072103435138,
+          "0.5": 0.0,
+          "1.0": 0.06266045393944307
+        },
+        "target_weight_status": "finite numerical neighborhoods; no exact-rational or infinite-spectrum certification"
+      },
+      "0.6": {
+        "t": 0.7838088748934594,
+        "mx": 0.5595462774684062,
+        "mz": 0.43364006568213054,
+        "p": 0.028305152292049378,
+        "projector_vector_consistency": 0.0,
+        "mx_consistency": 1.1102230246251565e-16,
+        "pauli_cross_diagnostic": 3.382710778154774e-17,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.00076849614471175,
+        "method": "dense_even_sector",
+        "dimension": 4096,
+        "eigen_residual_inf": 1.1124671717150622e-13,
+        "near_target_weights": {
+          "-1.0": 0.04215089028599214,
+          "-0.5": 0.08114072103435138,
+          "0.5": 0.0,
+          "1.0": 0.06266045393944307
+        },
+        "target_weight_status": "finite numerical neighborhoods; no exact-rational or infinite-spectrum certification"
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+# LaTeX build products (the manuscript PDFs are kept deliberately)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+build/
+
+# test logs under validation/ are records, not build products
+!validation/**/*.log

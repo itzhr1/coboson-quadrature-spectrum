@@ -1,0 +1,54 @@
+{
+  "S": 14,
+  "z": 0.7,
+  "omitted_weight": 0.006782230728489994,
+  "status": "finite-mode numerical estimates; compare steps and modes separately",
+  "results": [
+    {
+      "0.4": {
+        "t": 0.6474197729197967,
+        "mx": 0.4708567476197779,
+        "mz": 0.3334625734925479,
+        "p": 0.021562249417043253,
+        "projector_vector_consistency": 3.3306690738754696e-16,
+        "mx_consistency": 1.1102230246251565e-16,
+        "pauli_cross_diagnostic": 8.326672684688674e-17,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.0012790738470433993,
+        "method": "dense_even_sector",
+        "dimension": 8192,
+        "eigen_residual_inf": 1.8866580124654689e-13,
+        "near_target_weights": {
+          "-1.0": 0.04293517537180485,
+          "-0.5": 0.07440457740807935,
+          "0.5": 0.0,
+          "1.0": 0.060680263495822284
+        },
+        "target_weight_status": "finite numerical neighborhoods; no exact-rational or infinite-spectrum certification"
+      },
+      "0.6": {
+        "t": 0.7769820545546006,
+        "mx": 0.5565523631670994,
+        "mz": 0.42771947879880373,
+        "p": 0.027751656902271257,
+        "projector_vector_consistency": 1.2212453270876722e-15,
+        "mx_consistency": 3.3306690738754696e-16,
+        "pauli_cross_diagnostic": 1.3877787807814457e-17,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.0016058362697133344,
+        "method": "dense_even_sector",
+        "dimension": 8192,
+        "eigen_residual_inf": 1.8866580124654689e-13,
+        "near_target_weights": {
+          "-1.0": 0.04293517537180485,
+          "-0.5": 0.07440457740807935,
+          "0.5": 0.0,
+          "1.0": 0.060680263495822284
+        },
+        "target_weight_status": "finite numerical neighborhoods; no exact-rational or infinite-spectrum certification"
+      }
+    }
+  ]
+}

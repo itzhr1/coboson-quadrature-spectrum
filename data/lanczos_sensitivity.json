@@ -1,0 +1,170 @@
+[
+  {
+    "S": 16,
+    "z": 0.8,
+    "requested_steps": 240,
+    "results": {
+      "0.4": {
+        "t": 0.531595876264171,
+        "mx": 0.4252081124348076,
+        "mz": 0.2688392350896873,
+        "p": 0.007379425614272926,
+        "projector_vector_consistency": 5.551115123125783e-16,
+        "mx_consistency": 3.817960767993345e-05,
+        "pauli_cross_diagnostic": 1.0061396160665481e-16,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.00011887658224080111,
+        "method": "lanczos",
+        "requested_steps": 240,
+        "steps": 240,
+        "terminal_beta": 0.45362632777285383,
+        "max_ritz_residual": 0.06600097006042879,
+        "near_target_weights": {
+          "-1.0": 0.009699656102650209,
+          "-0.5": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.027280036642565387
+        },
+        "target_weight_status": "approximate Ritz neighborhoods, not certified atoms"
+      },
+      "0.6": {
+        "t": 0.7372579137292931,
+        "mx": 0.5917313028356551,
+        "mz": 0.3783782184463339,
+        "p": 0.012558305101566594,
+        "projector_vector_consistency": 3.774758283725532e-15,
+        "mx_consistency": 9.583333491380852e-05,
+        "pauli_cross_diagnostic": 5.989674901896169e-16,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.0019323235013769535,
+        "method": "lanczos",
+        "requested_steps": 240,
+        "steps": 240,
+        "terminal_beta": 0.45362632777285383,
+        "max_ritz_residual": 0.06600097006042879,
+        "near_target_weights": {
+          "-1.0": 0.009699656102650209,
+          "-0.5": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.027280036642565387
+        },
+        "target_weight_status": "approximate Ritz neighborhoods, not certified atoms"
+      }
+    },
+    "seconds": 3.426654100418091
+  },
+  {
+    "S": 16,
+    "z": 0.8,
+    "requested_steps": 480,
+    "results": {
+      "0.4": {
+        "t": 0.5374964330338,
+        "mx": 0.4301565996508292,
+        "mz": 0.2717643484325723,
+        "p": 0.007502963555478484,
+        "projector_vector_consistency": 3.3306690738754696e-16,
+        "mx_consistency": 2.68156555135457e-05,
+        "pauli_cross_diagnostic": 3.0010716134398763e-16,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.0006665023467538611,
+        "method": "lanczos",
+        "requested_steps": 480,
+        "steps": 480,
+        "terminal_beta": 0.4465454230120219,
+        "max_ritz_residual": 0.05562269276513687,
+        "near_target_weights": {
+          "-1.0": 0.009699656102650209,
+          "-0.5": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.027280036642565387
+        },
+        "target_weight_status": "approximate Ritz neighborhoods, not certified atoms"
+      },
+      "0.6": {
+        "t": 0.7395810461733848,
+        "mx": 0.5933247542654156,
+        "mz": 0.3800593024415221,
+        "p": 0.012625196615616535,
+        "projector_vector_consistency": 5.551115123125783e-16,
+        "mx_consistency": 6.830858079975854e-05,
+        "pauli_cross_diagnostic": 1.45719482487483e-15,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.0021670144516984235,
+        "method": "lanczos",
+        "requested_steps": 480,
+        "steps": 480,
+        "terminal_beta": 0.4465454230120219,
+        "max_ritz_residual": 0.05562269276513687,
+        "near_target_weights": {
+          "-1.0": 0.009699656102650209,
+          "-0.5": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.027280036642565387
+        },
+        "target_weight_status": "approximate Ritz neighborhoods, not certified atoms"
+      }
+    },
+    "seconds": 9.803196907043457
+  },
+  {
+    "S": 16,
+    "z": 0.8,
+    "requested_steps": 960,
+    "results": {
+      "0.4": {
+        "t": 0.5430147546762074,
+        "mx": 0.43475829602740484,
+        "mz": 0.2746089546363921,
+        "p": 0.007610042466229268,
+        "projector_vector_consistency": 8.881784197001252e-16,
+        "mx_consistency": 6.56522116457281e-05,
+        "pauli_cross_diagnostic": 1.734723475976807e-18,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.00027060878155016344,
+        "method": "lanczos",
+        "requested_steps": 960,
+        "steps": 960,
+        "terminal_beta": 0.46357571511768286,
+        "max_ritz_residual": 0.11649848591891031,
+        "near_target_weights": {
+          "-1.0": 0.009699656102650209,
+          "-0.5": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.027280036642565047
+        },
+        "target_weight_status": "approximate Ritz neighborhoods, not certified atoms"
+      },
+      "0.6": {
+        "t": 0.737844092510073,
+        "mx": 0.5920170530657871,
+        "mz": 0.37882871807063023,
+        "p": 0.012604629024069267,
+        "projector_vector_consistency": 5.662137425588298e-15,
+        "mx_consistency": 3.586175663872204e-05,
+        "pauli_cross_diagnostic": 4.235435786814623e-16,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.0002584037694701724,
+        "method": "lanczos",
+        "requested_steps": 960,
+        "steps": 960,
+        "terminal_beta": 0.46357571511768286,
+        "max_ritz_residual": 0.11649848591891031,
+        "near_target_weights": {
+          "-1.0": 0.009699656102650209,
+          "-0.5": 0.0,
+          "0.5": 0.0,
+          "1.0": 0.027280036642565047
+        },
+        "target_weight_status": "approximate Ritz neighborhoods, not certified atoms"
+      }
+    },
+    "seconds": 30.113114833831787
+  }
+]

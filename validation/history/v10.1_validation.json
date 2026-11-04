@@ -1,0 +1,62 @@
+{
+  "revision": "v10.1",
+  "date": "2026-11-02",
+  "runtime": {
+    "python": "3.13.17",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "sympy": "1.14.0"
+  },
+  "reproduce_sh": "run from the repository root; all steps completed",
+  "unit_tests": {
+    "passed": 16,
+    "failed": 0,
+    "log": "tests.log"
+  },
+  "generated_blocks": {
+    "count": 10,
+    "files": [
+      "manuscript/coboson_paper_v10_1.tex",
+      "manuscript/undergrad_version_v10_1.tex"
+    ],
+    "all_match_generator": true
+  },
+  "independent_checks": {
+    "figure5_points": 50,
+    "figure5_passed": true,
+    "independent_review_rerun": "validation/independent_review_results.json; rerun on v10.1 (data unchanged)",
+    "scripts": [
+      "code/independent/verify_cutoff_curves.py",
+      "code/independent/verify_rank4_flat.py",
+      "code/independent/verify_expansions.py",
+      "code/independent/verify_revision_numbers.py",
+      "code/independent/independent_review_v5.py"
+    ]
+  },
+  "latex": {
+    "compiler": "sources: pdflatex (latexmk -pdf) with lmodern + microtype; distributed PDFs: XeLaTeX with the Latin Modern OpenType fonts (all fonts embedded with Unicode maps)",
+    "coboson_paper_v10_1": {
+      "pages": 26,
+      "bibliography_entries": 40,
+      "overfull_boxes": 0,
+      "undefined_references": 0
+    },
+    "undergrad_version_v10_1": {
+      "pages": 31,
+      "bibliography_entries": 40,
+      "overfull_boxes": 0,
+      "undefined_references": 0
+    },
+    "bibliography_order": "numbered in order of first citation (checked by script)"
+  },
+  "data": {
+    "json_files": 14,
+    "all_byte_identical_to_previous": true
+  },
+  "limitations": [
+    "Historical full scans and the 960-step Lanczos calculation are not rerun by reproduce.sh.",
+    "Numerical agreement is not a machine proof of the analytical arguments.",
+    "No positivity proof or convergence rate at the specific infinite-mode cutoffs 0.4 and 0.6.",
+    "The standalone figure source uses lmodern; it was compiled here without that package (same geometry)."
+  ]
+}

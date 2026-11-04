@@ -1,0 +1,24 @@
+{
+  "title": "Discrete quadrature spectrum of composite bosons: code, data and manuscript sources",
+  "upload_type": "software",
+  "description": "<p>Code, data and manuscript sources for the paper <em>Discrete quadrature spectrum of composite bosons: Weyl relation, intensity correlations, and binned homodyne detection</em> (I. Roditi). The scripts compute, for an exactly solvable two-fermion composite boson with a finite Schmidt spectrum, the Weyl (displacement) defect, periodically binned homodyne quadratures and the exact Pauli algebra and singlet recovered from them, and intensity correlations; the JSON files are the archived scans; every table and figure block of the manuscripts is regenerated from them by code/make_assets.py, and reproduce.sh runs the tests and the independent cross-checks.</p>",
+  "creators": [
+    {
+      "name": "Roditi, Itzhak",
+      "affiliation": "Centro Brasileiro de Pesquisas Físicas (CBPF), Rio de Janeiro, Brazil"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": [
+    "composite bosons",
+    "cobosons",
+    "homodyne detection",
+    "modular variables",
+    "Pauli algebra",
+    "Bell-CHSH inequality",
+    "Frenkel exciton",
+    "Wannier exciton",
+    "Weyl relation"
+  ]
+}

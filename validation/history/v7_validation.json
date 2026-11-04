@@ -1,0 +1,72 @@
+{
+  "revision": "v7",
+  "date": "2026-10-30",
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.1",
+    "sympy": "1.14.0"
+  },
+  "unit_tests": {
+    "passed": 16,
+    "failed": 0,
+    "log": "tests_v7.log"
+  },
+  "generated_blocks": {
+    "coboson_paper": {
+      "count": 10,
+      "all_match_generator": true,
+      "changed_from_v6": [
+        "cutoff_figure"
+      ]
+    },
+    "undergrad_version": {
+      "count": 10,
+      "all_match_generator": true,
+      "changed_from_v6": [
+        "cutoff_figure"
+      ]
+    }
+  },
+  "latex": {
+    "coboson_paper": {
+      "pages": 25,
+      "bibliography_entries": 36,
+      "overfull_boxes": 0,
+      "undefined_references": 0,
+      "duplicate_labels": 0,
+      "warnings": "Routine h-to-ht float-placement notices only",
+      "figure5_page": 15
+    },
+    "undergrad_version": {
+      "pages": 29,
+      "bibliography_entries": 36,
+      "overfull_boxes": 0,
+      "undefined_references": 0,
+      "duplicate_labels": 0,
+      "warnings": "Routine h-to-ht float-placement notices only",
+      "figure5_page": 19
+    }
+  },
+  "data": {
+    "json_files": 14,
+    "all_byte_identical_to_supplied_v6": true
+  },
+  "independent_checks": {
+    "figure5_points": 50,
+    "figure5_max_probability_discrepancy": 2.2898349882893854e-15,
+    "nonflat_table_max_probability_discrepancy": 1.8943180357666733e-15,
+    "symbolic_displacement_expansion_passed": true,
+    "details": [
+      "figure5_checks.json",
+      "independent_review_v7_results.json"
+    ]
+  },
+  "limitations": [
+    "Historical full scans and extended Lanczos calculation not rerun.",
+    "Numerical agreement is not a machine proof.",
+    "No positivity proof or convergence rate for the specified infinite-mode nonflat cutoffs.",
+    "No new exhaustive literature review."
+  ],
+  "visual_review": "All 25 research and 29 undergraduate pages reviewed as rendered contact sheets; Figure 5 also inspected at larger scale and as a standalone figure."
+}

@@ -1,0 +1,35 @@
+{
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1"
+  },
+  "curves": {
+    "flat_8": {
+      "points": 4,
+      "max_probability_discrepancy": 1.682681771697503e-16,
+      "monotone": true
+    },
+    "flat_64": {
+      "points": 13,
+      "max_probability_discrepancy": 2.2898349882893854e-15,
+      "monotone": true
+    },
+    "geometric_0.5": {
+      "points": 13,
+      "max_probability_discrepancy": 1.5386997231914279e-15,
+      "monotone": true
+    },
+    "geometric_0.7": {
+      "points": 9,
+      "max_probability_discrepancy": 1.7694179454963432e-15,
+      "monotone": true
+    },
+    "algebraic_6.0": {
+      "points": 11,
+      "max_probability_discrepancy": 1.850733108432756e-15,
+      "monotone": true
+    }
+  },
+  "passed": true
+}

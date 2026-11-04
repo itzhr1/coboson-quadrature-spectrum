@@ -1,0 +1,24 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  unit-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11", "3.12", "3.13"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: python -m pip install --upgrade pip && pip install numpy scipy sympy
+      - name: unit tests
+        env: { OPENBLAS_NUM_THREADS: "1", OMP_NUM_THREADS: "1" }
+        run: python -m unittest discover -s code -p tests.py -v
+      - name: generated blocks reproduce
+        env: { OPENBLAS_NUM_THREADS: "1", OMP_NUM_THREADS: "1" }
+        run: |
+          cp manuscript/coboson_paper_v10_12.tex /tmp/a.tex && python code/make_assets.py --manuscript /tmp/a.tex && diff -q manuscript/coboson_paper_v10_12.tex /tmp/a.tex
+          cp manuscript/undergrad_version_v10_12.tex /tmp/b.tex && python code/make_assets.py --manuscript /tmp/b.tex && diff -q manuscript/undergrad_version_v10_12.tex /tmp/b.tex
+      - name: independent Figure 5 check
+        run: python code/independent/verify_cutoff_curves.py

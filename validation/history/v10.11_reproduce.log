@@ -1,0 +1,68 @@
+== unit tests
+test_corrected_protocol_is_tsirelson_when_p_positive (tests.BellRawTests.test_corrected_protocol_is_tsirelson_when_p_positive) ... ok
+test_flat_ranks_against_archived_scan (tests.BellRawTests.test_flat_ranks_against_archived_scan) ... ok
+test_rank4_examples_against_independent_values (tests.BellRawTests.test_rank4_examples_against_independent_values) ... ok
+test_bound_values_and_no_qubit_model (tests.MathematicsTests.test_bound_values_and_no_qubit_model) ... ok
+test_complex_linear_transform_against_direct_quadratures (tests.MathematicsTests.test_complex_linear_transform_against_direct_quadratures) ... ok
+test_dense_lanczos_and_signed_targets (tests.MathematicsTests.test_dense_lanczos_and_signed_targets) ... ok
+test_displacement_against_exponentials (tests.MathematicsTests.test_displacement_against_exponentials) ... ok
+test_edge_conventions_and_mass (tests.MathematicsTests.test_edge_conventions_and_mass) ... ok
+test_eight_mode_and_zero_cutoff (tests.MathematicsTests.test_eight_mode_and_zero_cutoff) ... ok
+test_equal_moment_examples (tests.MathematicsTests.test_equal_moment_examples) ... ok
+test_field_correlation (tests.MathematicsTests.test_field_correlation) ... ok
+test_harmonic_product_against_direct_dicke_matrices (tests.MathematicsTests.test_harmonic_product_against_direct_dicke_matrices) ... ok
+test_mixedness_and_K_measure_not_sufficient (tests.MathematicsTests.test_mixedness_and_K_measure_not_sufficient) ... ok
+test_pauli_projector_and_nested_cutoffs (tests.MathematicsTests.test_pauli_projector_and_nested_cutoffs) ... ok
+test_reject_invalid_input (tests.MathematicsTests.test_reject_invalid_input) ... ok
+test_smooth_bounds_and_sign_margin (tests.MathematicsTests.test_smooth_bounds_and_sign_margin) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 0.147s
+
+OK
+== generated blocks (must print no differences)
+Updated data blocks: /tmp/coboson_paper_v10_11.regen.tex
+coboson_paper_v10_11: all generated blocks unchanged
+Updated data blocks: /tmp/undergrad_version_v10_11.regen.tex
+undergrad_version_v10_11: all generated blocks unchanged
+== independent checks
+{
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.18.1"
+  },
+  "curves": {
+    "flat_8": {
+      "points": 4,
+      "max_probability_discrepancy": 1.682681771697503e-16,
+      "monotone": true
+    },
+    "flat_64": {
+      "points": 13,
+      "max_probability_discrepancy": 2.2898349882893854e-15,
+      "monotone": true
+    },
+    "geometric_0.5": {
+      "points": 13,
+      "max_probability_discrepancy": 1.5386997231914279e-15,
+      "monotone": true
+    },
+    "geometric_0.7": {
+      "points": 9,
+      "max_probability_discrepancy": 1.7694179454963432e-15,
+      "monotone": true
+    },
+    "algebraic_6.0": {
+      "points": 11,
+      "max_probability_discrepancy": 1.850733108432756e-15,
+      "monotone": true
+    }
+  },
+  "passed": true
+}
+verify_rank4_flat.py ran
+verify_expansions.py ran
+verify_revision_numbers.py ran
+independent_review_v5.py ran (validation/independent_review_results.json)
+== done

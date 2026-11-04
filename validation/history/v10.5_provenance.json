@@ -1,0 +1,128 @@
+{
+  "revision": "v10.5",
+  "date": "2026-11-03",
+  "previous_revision": {
+    "name": "v9",
+    "archive": "coboson_paper_v10_4_repo.zip",
+    "archive_sha256": "1d3df320be94c04b76e6aafe70fdd592eba3ae7855fc7e428e3b85d03f7efc9b",
+    "coboson_paper_v10_4.tex_sha256": "677637fcfcb7933fc7bfb40360840d283f8a1fe87a6f806c911c56de977723ed",
+    "undergrad_version_v10_4.tex_sha256": "a76208629be2c961bbdcebccb5889119b415a0979b5c140933b810f9138a8b21"
+  },
+  "current_manuscripts": {
+    "coboson_paper_v10_5.tex": "63cb149b6dfac2c4ee5b23aec977160fdfb60d12dbfd688dd60724b6c5fa9e37",
+    "undergrad_version_v10_5.tex": "e6d8b7fbe7f2eccf61613a83adab90d9f7704cce6a7ecdf0dffc64f10695587f",
+    "coboson_paper_v10_5.pdf": "88067d8e03034db248dd39e2b5d89e8c89b143b5da404733c0de85d71c611496",
+    "undergrad_version_v10_5.pdf": "f620407593226c8a50e4c441350d4ef74bddf9fb8c7aa4c91b7691a903c9234a",
+    "figures/figure5_cutoff.tex": "9c659be3c778f9ee32d10a32ee100d05ec4d678fb7339b95c046bbdab2ba717a",
+    "figures/figure5_cutoff.pdf": "23f4db5ea934b380ef9728cbf2c44f241eee5af1bc6b6149cbdab35c1073f59b"
+  },
+  "code": {
+    "code/bell_raw.py": "791377a1da2fe13c2bfbee82b96e3626929941a729a6da23291daca8437e1919",
+    "code/flatscan.py": "58d33c8896573cd8f0aed71597f53601e6562cafe3a8ffbeb24816519dbaafc9",
+    "code/independent/independent_review_v5.py": "f81b1d33e6db1eae6c3d8572131f1aec12daea4616871119d235b703dd2f1a67",
+    "code/independent/verify_cutoff_curves.py": "3b0f66000deb83ad2d37169454fd5d931b30f60fc4be3bbdfd8fb8ca318f39f1",
+    "code/independent/verify_expansions.py": "bc9717d840968440cd47f822ece601200744dba3cbf4c581df57db6e02164a5a",
+    "code/independent/verify_rank4_flat.py": "72dc8e55ad67ff2d51b6a27f2a08c57b191cacf13854cc7b5e8351565c3aa0b4",
+    "code/independent/verify_revision_numbers.py": "e14315fbd242c092795b0644086ec0e8c55bb9c11142212e600154189de44d38",
+    "code/make_assets.py": "da7555edc97e085462d8436fa5e53e462cf646c489dbf4a5505a5c4bda541e47",
+    "code/nonflat.py": "36347bb39c6b0c73e76b56a3cdc305d7f6825f16eaaf90142947c6a191052d1c",
+    "code/revision_checks.py": "2e2e5ba3e46402f8f2153d561530d03337a4fc29865d56d3e45514d3e754f0a9",
+    "code/tests.py": "e76b7c9cdce201cd43bb82be1b261243af12f2728a458c77abbaefb97ba7485c"
+  },
+  "data_files": {
+    "bell_raw_8000.json": {
+      "sha256": "e5be9601f90f276140cdc4b28ae67041b2f87cbd4a4d0eeccaeb8d6242a54a29",
+      "status": "archived (byte-identical to v5 onward)"
+    },
+    "bell_raw_scan.json": {
+      "sha256": "0b75c2626a1d89fdb37eaa5e577beecc72da3d35c818dd7e1dfa7708c133b042",
+      "status": "archived (byte-identical to v5 onward)"
+    },
+    "cutoff_curves.json": {
+      "sha256": "37d53e1a4082d8731f09f1a161c0f1da8a29610c3a4916943489864279486f6e",
+      "status": "archived (byte-identical to v5 onward)"
+    },
+    "dense_z07_S13.json": {
+      "sha256": "8cfa3488d798aa33ee8471cc71214dc18b861eef53a72d031eeac457e4332b2f",
+      "status": "archived (byte-identical to v5 onward)"
+    },
+    "dense_z07_S14.json": {
+      "sha256": "cf42b62c240afb251ccad3f587234310d96dc5ef8aefe068aa7d7e46d8fae4d0",
+      "status": "archived (byte-identical to v5 onward)"
+    },
+    "fresh_dense_nonflat.json": {
+      "sha256": "e636ed2be37f501bf6ceb4f1e557c7df9d6b61d6daeb04502bf89206446be2c4",
+      "status": "archived (byte-identical to v5 onward)"
+    },
+    "fresh_flat_checks.json": {
+      "sha256": "d832214479ccf9e793138ba28613a6321d7b6d03345341c92649afd5dbb29385",
+      "status": "archived (byte-identical to v5 onward)"
+    },
+    "harmonic_checks.json": {
+      "sha256": "0dae0ac73ad5ca70b85bbd6ec9263f355160ec770acd24e1b021bc3bbf0f2112",
+      "status": "archived (byte-identical to v5 onward)"
+    },
+    "lanczos_sensitivity.json": {
+      "sha256": "c2825ac1baad9fc18f25eade8736726384f1e259d5c282eabccf83bfa6ba85c6",
+      "status": "archived (byte-identical to v5 onward)"
+    },
+    "legacy_cutoff_scan.json": {
+      "sha256": "8b54c85c29e6c7d880276630e313e3dd18920a17e8c03dd6abe37a87cf9a1deb",
+      "status": "archived (byte-identical to v5 onward)"
+    },
+    "legacy_flat_scan.json": {
+      "sha256": "95d8cddf72844e2b80cebe5832b9dbd2b15b73ae270f81d193bc5d5907699cf0",
+      "status": "archived (byte-identical to v5 onward)"
+    },
+    "legacy_nonflat_scan.json": {
+      "sha256": "22dac4a405bb2a7356b4de5132ce3721538ad9c3dad60b2e351fc910d9da423f",
+      "status": "archived (byte-identical to v5 onward)"
+    },
+    "scale_sensitivity.json": {
+      "sha256": "3b1e64825f1a472b5db12aef55be40248e46e789d35d322c500090f8b2ea7af5",
+      "status": "archived (byte-identical to v5 onward)"
+    },
+    "smooth_binning.json": {
+      "sha256": "99b4f1b9d557d44ff3827c42a18c65053da6870f386719abfb02c6a7ec7ce922",
+      "status": "archived (byte-identical to v5 onward)"
+    }
+  },
+  "data_origin_notes": {
+    "bell_raw_scan.json": "code/bell_raw.py, default rank list (4-400 step 1, 404-2000 step 4, 12 geometric points 2050-4096) plus S=3956 appended; both tie conventions at perfect squares; 29 October 2026, Python 3.13 / NumPy 2.x, OPENBLAS_NUM_THREADS=1",
+    "bell_raw_8000.json": "code/bell_raw.py --ranks 8000, same environment",
+    "dense_z07_S13.json, dense_z07_S14.json": "code/nonflat.py --z 0.7 --dense --cutoffs 0.4 0.6 at --rank 13 and 14 (even sector), 26 October 2026"
+  },
+  "historical_data": [
+    {
+      "distributed_path": "data/legacy_flat_scan.json",
+      "input_path": "support/flat_scan_dense.json",
+      "sha256": "95d8cddf72844e2b80cebe5832b9dbd2b15b73ae270f81d193bc5d5907699cf0",
+      "byte_identical": true,
+      "fully_rerun_in_v2": false
+    },
+    {
+      "distributed_path": "data/legacy_nonflat_scan.json",
+      "input_path": "support/nonflat_scan.json",
+      "sha256": "22dac4a405bb2a7356b4de5132ce3721538ad9c3dad60b2e351fc910d9da423f",
+      "byte_identical": true,
+      "fully_rerun_in_v2": false
+    },
+    {
+      "distributed_path": "data/legacy_cutoff_scan.json",
+      "input_path": "support/kappa_scan.json",
+      "sha256": "8b54c85c29e6c7d880276630e313e3dd18920a17e8c03dd6abe37a87cf9a1deb",
+      "byte_identical": true,
+      "fully_rerun_in_v2": false
+    }
+  ],
+  "v2_origin": {
+    "input_archive": "Coboson_paper_revised-v1.zip",
+    "input_archive_sha256": "65a9261dcb3a13df677471254a20c8345756b3abf4420eb2dd69b4edef0178cf",
+    "input_manuscript_sha256": "4841b61bc02af176cd9b0bc9ffa46f3ac0e17d28036ee9bbe41851001bfcb958"
+  },
+  "bibliography_spot_check": {
+    "reference": "Walborn et al., Phys. Rev. A 75, 032338 (2007)",
+    "publisher_url": "https://journals.aps.org/pra/abstract/10.1103/PhysRevA.75.032338",
+    "status": "Title, authors, volume and article number verified against publisher"
+  }
+}

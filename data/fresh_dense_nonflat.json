@@ -1,0 +1,344 @@
+[
+  {
+    "S": 8,
+    "family": "geometric",
+    "parameter": 0.7,
+    "P": 0.19806162500976765,
+    "eps": 0.9973108373270593,
+    "dD": 1.0886815350329877,
+    "praw": 0.1254652738571167,
+    "X0": 0.75,
+    "Z0": 0.328125,
+    "results": {
+      "0.4": {
+        "t": 0.6164015418892368,
+        "mx": 0.47896628841033084,
+        "mz": 0.26065482731015865,
+        "p": 0.020650304102442923,
+        "projector_vector_consistency": 0.0,
+        "mx_consistency": 0.0,
+        "pauli_cross_diagnostic": 3.469446951953614e-18,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.05927948279684381,
+        "method": "dense_even_sector",
+        "dimension": 128,
+        "eigen_residual_inf": 1.79401435621827e-14,
+        "near_target_weights": {
+          "-1.0": 0.04664213013449627,
+          "-0.5": 0.22499999999999995,
+          "0.5": 0.0,
+          "1.0": 0.10557668643024921
+        },
+        "target_weight_status": "finite numerical neighborhoods; no exact-rational or infinite-spectrum certification"
+      },
+      "0.6": {
+        "t": 0.8414015418892368,
+        "mx": 0.5914662884103306,
+        "mz": 0.4555105431616573,
+        "p": 0.03765858235906618,
+        "projector_vector_consistency": 1.1102230246251565e-16,
+        "mx_consistency": 2.220446049250313e-16,
+        "pauli_cross_diagnostic": 9.280770596475918e-17,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.09999999999999265,
+        "method": "dense_even_sector",
+        "dimension": 128,
+        "eigen_residual_inf": 1.79401435621827e-14,
+        "near_target_weights": {
+          "-1.0": 0.04664213013449627,
+          "-0.5": 0.22499999999999995,
+          "0.5": 0.0,
+          "1.0": 0.10557668643024921
+        },
+        "target_weight_status": "finite numerical neighborhoods; no exact-rational or infinite-spectrum certification"
+      }
+    }
+  },
+  {
+    "S": 10,
+    "family": "geometric",
+    "parameter": 0.5,
+    "P": 0.3339850114043662,
+    "eps": 1.3925219680998304,
+    "dD": 1.267079979394619,
+    "praw": 0.16541385650634766,
+    "X0": 0.75,
+    "Z0": 0.2890625,
+    "results": {
+      "0.4": {
+        "t": 0.28459707530589623,
+        "mx": 0.20261314306212697,
+        "mz": 0.16718242553074317,
+        "p": 0.002998361531203389,
+        "projector_vector_consistency": 2.7755575615628914e-16,
+        "mx_consistency": 1.3877787807814457e-16,
+        "pauli_cross_diagnostic": 1.734723475976807e-18,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.0028851536929412336,
+        "method": "dense_even_sector",
+        "dimension": 512,
+        "eigen_residual_inf": 4.277633046913406e-14,
+        "near_target_weights": {
+          "-1.0": 0.1746721034185676,
+          "-0.5": 0.18725649350649404,
+          "0.5": 0.0,
+          "1.0": 0.20356044428969405
+        },
+        "target_weight_status": "finite numerical neighborhoods; no exact-rational or infinite-spectrum certification"
+      },
+      "0.6": {
+        "t": 0.6217674522917385,
+        "mx": 0.3717674522917388,
+        "mz": 0.44793110721718266,
+        "p": 0.011935362333264449,
+        "projector_vector_consistency": 6.661338147750939e-16,
+        "mx_consistency": 2.7755575615628914e-16,
+        "pauli_cross_diagnostic": 7.41594285980085e-17,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.09999999999999909,
+        "method": "dense_even_sector",
+        "dimension": 512,
+        "eigen_residual_inf": 4.277633046913406e-14,
+        "near_target_weights": {
+          "-1.0": 0.1746721034185676,
+          "-0.5": 0.18725649350649404,
+          "0.5": 0.0,
+          "1.0": 0.20356044428969405
+        },
+        "target_weight_status": "finite numerical neighborhoods; no exact-rational or infinite-spectrum certification"
+      }
+    }
+  },
+  {
+    "S": 10,
+    "family": "geometric",
+    "parameter": 0.7,
+    "P": 0.18673010897339398,
+    "eps": 0.9779755401985075,
+    "dD": 1.0575853075290729,
+    "praw": 0.12265425501391292,
+    "X0": 0.7578125,
+    "Z0": 0.33203125,
+    "results": {
+      "0.4": {
+        "t": 0.6143634851266832,
+        "mx": 0.449646722449836,
+        "mz": 0.303544649109529,
+        "p": 0.020780240711024328,
+        "projector_vector_consistency": 5.551115123125783e-16,
+        "mx_consistency": 1.6653345369377348e-16,
+        "pauli_cross_diagnostic": 7.806255641895632e-17,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.009977077878077778,
+        "method": "dense_even_sector",
+        "dimension": 512,
+        "eigen_residual_inf": 4.38100442873243e-14,
+        "near_target_weights": {
+          "-1.0": 0.047012997878712076,
+          "-0.5": 0.08775033206726104,
+          "0.5": 0.0,
+          "1.0": 0.07106604322088927
+        },
+        "target_weight_status": "finite numerical neighborhoods; no exact-rational or infinite-spectrum certification"
+      },
+      "0.6": {
+        "t": 0.7987868342263086,
+        "mx": 0.5664646575405478,
+        "mz": 0.4435675829413685,
+        "p": 0.030106499413577584,
+        "projector_vector_consistency": 1.887379141862766e-15,
+        "mx_consistency": 6.661338147750939e-16,
+        "pauli_cross_diagnostic": 3.5561831257524545e-17,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.00676759559608997,
+        "method": "dense_even_sector",
+        "dimension": 512,
+        "eigen_residual_inf": 4.38100442873243e-14,
+        "near_target_weights": {
+          "-1.0": 0.047012997878712076,
+          "-0.5": 0.08775033206726104,
+          "0.5": 0.0,
+          "1.0": 0.07106604322088927
+        },
+        "target_weight_status": "finite numerical neighborhoods; no exact-rational or infinite-spectrum certification"
+      }
+    }
+  },
+  {
+    "S": 10,
+    "family": "algebraic",
+    "parameter": 3.0,
+    "P": 0.515324329088285,
+    "eps": 1.631433516078057,
+    "dD": 1.3032129080574641,
+    "praw": 0.1710559236817062,
+    "X0": 0.76171875,
+    "Z0": 0.1953125,
+    "results": {
+      "0.4": {
+        "t": 0.323955171307088,
+        "mx": 0.11872715838049011,
+        "mz": 0.2982785460547796,
+        "p": 0.00047018096073636953,
+        "projector_vector_consistency": 1.6653345369377348e-16,
+        "mx_consistency": 8.326672684688674e-17,
+        "pauli_cross_diagnostic": 1.5937771935536915e-17,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.0055245314004983,
+        "method": "dense_even_sector",
+        "dimension": 512,
+        "eigen_residual_inf": 4.676496357719495e-14,
+        "near_target_weights": {
+          "-1.0": 0.3438766642948552,
+          "-0.5": 0.06293706293706294,
+          "0.5": 0.0,
+          "1.0": 0.2671419024832592
+        },
+        "target_weight_status": "finite numerical neighborhoods; no exact-rational or infinite-spectrum certification"
+      },
+      "0.6": {
+        "t": 0.38898143322188566,
+        "mx": 0.15070018322188555,
+        "mz": 0.3548110137872567,
+        "p": 0.0006762886658753797,
+        "projector_vector_consistency": 5.551115123125783e-17,
+        "mx_consistency": 2.7755575615628914e-17,
+        "pauli_cross_diagnostic": 7.22078646875346e-17,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.09999999999999942,
+        "method": "dense_even_sector",
+        "dimension": 512,
+        "eigen_residual_inf": 4.676496357719495e-14,
+        "near_target_weights": {
+          "-1.0": 0.3438766642948552,
+          "-0.5": 0.06293706293706294,
+          "0.5": 0.0,
+          "1.0": 0.2671419024832592
+        },
+        "target_weight_status": "finite numerical neighborhoods; no exact-rational or infinite-spectrum certification"
+      }
+    }
+  },
+  {
+    "S": 10,
+    "family": "algebraic",
+    "parameter": 4.0,
+    "P": 0.3812828351157577,
+    "eps": 1.5131312038415778,
+    "dD": 1.3016839650806753,
+    "praw": 0.17646418465301394,
+    "X0": 0.7265625,
+    "Z0": 0.28515625,
+    "results": {
+      "0.4": {
+        "t": 0.14888440577100612,
+        "mx": 0.0720551026267797,
+        "mz": 0.10408369050682463,
+        "p": 0.0015353034594273477,
+        "projector_vector_consistency": 8.326672684688674e-17,
+        "mx_consistency": 5.551115123125783e-17,
+        "pauli_cross_diagnostic": 5.854691731421724e-18,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.010097050800552954,
+        "method": "dense_even_sector",
+        "dimension": 512,
+        "eigen_residual_inf": 5.4500479375327886e-14,
+        "near_target_weights": {
+          "-1.0": 0.22883911866180795,
+          "-0.5": 0.3228021978021991,
+          "0.5": 0.0,
+          "1.0": 0.233149221746374
+        },
+        "target_weight_status": "finite numerical neighborhoods; no exact-rational or infinite-spectrum certification"
+      },
+      "0.6": {
+        "t": 0.5380116595918157,
+        "mx": 0.2645741595918168,
+        "mz": 0.44218878452612304,
+        "p": 0.0059815346930834,
+        "projector_vector_consistency": 1.1102230246251565e-16,
+        "mx_consistency": 4.996003610813204e-16,
+        "pauli_cross_diagnostic": 8.68445940160889e-17,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.09999999999999243,
+        "method": "dense_even_sector",
+        "dimension": 512,
+        "eigen_residual_inf": 5.4500479375327886e-14,
+        "near_target_weights": {
+          "-1.0": 0.22883911866180795,
+          "-0.5": 0.3228021978021991,
+          "0.5": 0.0,
+          "1.0": 0.233149221746374
+        },
+        "target_weight_status": "finite numerical neighborhoods; no exact-rational or infinite-spectrum certification"
+      }
+    }
+  },
+  {
+    "S": 10,
+    "family": "algebraic",
+    "parameter": 6.0,
+    "P": 0.24797028730777532,
+    "eps": 1.156230204644738,
+    "dD": 1.188837200761589,
+    "praw": 0.13639164669439197,
+    "X0": 0.75390625,
+    "Z0": 0.3203125,
+    "results": {
+      "0.4": {
+        "t": 0.41326602709370186,
+        "mx": 0.3242221963582229,
+        "mz": 0.21293465708605663,
+        "p": 0.005081902087526433,
+        "projector_vector_consistency": 5.551115123125783e-17,
+        "mx_consistency": 1.1102230246251565e-16,
+        "pauli_cross_diagnostic": 3.3393426912553537e-17,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.029892004188042665,
+        "method": "dense_even_sector",
+        "dimension": 512,
+        "eigen_residual_inf": 4.2511275803822773e-14,
+        "near_target_weights": {
+          "-1.0": 0.09282271756615615,
+          "-0.5": 0.27701733298601033,
+          "0.5": 0.0,
+          "1.0": 0.12816979004716852
+        },
+        "target_weight_status": "finite numerical neighborhoods; no exact-rational or infinite-spectrum certification"
+      },
+      "0.6": {
+        "t": 0.7790074923866752,
+        "mx": 0.5329137423866749,
+        "mz": 0.4885818973186258,
+        "p": 0.02103583649563409,
+        "projector_vector_consistency": 2.220446049250313e-16,
+        "mx_consistency": 4.440892098500626e-16,
+        "pauli_cross_diagnostic": 2.1380466841414147e-16,
+        "probability_formula_status": "model identity evaluated on numerical filter; not a certified error bound",
+        "cutoff_near_count": 0,
+        "cutoff_distance": 0.09999999999999931,
+        "method": "dense_even_sector",
+        "dimension": 512,
+        "eigen_residual_inf": 4.2511275803822773e-14,
+        "near_target_weights": {
+          "-1.0": 0.09282271756615615,
+          "-0.5": 0.27701733298601033,
+          "0.5": 0.0,
+          "1.0": 0.12816979004716852
+        },
+        "target_weight_status": "finite numerical neighborhoods; no exact-rational or infinite-spectrum certification"
+      }
+    }
+  }
+]

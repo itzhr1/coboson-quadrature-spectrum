@@ -1,0 +1,76 @@
+{
+  "revision": "v6",
+  "date": "2026-10-30",
+  "runtime": {
+    "python": "3.13.17",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1"
+  },
+  "unit_tests": {
+    "passed": 16,
+    "failed": 0,
+    "log": "tests.log",
+    "command": "OPENBLAS_NUM_THREADS=1 python -m unittest discover -s code -p tests.py -v"
+  },
+  "independent_checks": {
+    "scripts": [
+      "code/independent/verify_rank4_flat.py",
+      "code/independent/verify_expansions.py",
+      "code/independent/verify_revision_numbers.py",
+      "code/independent/independent_review_v5.py"
+    ],
+    "independent_review_v5_rerun": "all numerical entries identical to the reviewer's independent_review_results.json (relative tolerance 1e-9)"
+  },
+  "generated_blocks": {
+    "count": 10,
+    "files": [
+      "coboson_paper_v6.tex",
+      "undergrad_version_v6.tex"
+    ],
+    "all_match_saved_data": true,
+    "command": "OPENBLAS_NUM_THREADS=1 python code/make_assets.py --manuscript <file>"
+  },
+  "latex": {
+    "compiler": "latexmk -pdf (pdfTeX, TeX Live)",
+    "external_asset_dependencies": false,
+    "coboson_paper_v6": {
+      "pages": 25,
+      "bibliography_entries": 36,
+      "overfull_boxes": 0,
+      "undefined_references": 0,
+      "multiply_defined_labels": 0
+    },
+    "undergrad_version_v6": {
+      "pages": 29,
+      "bibliography_entries": 36,
+      "overfull_boxes": 0,
+      "undefined_references": 0,
+      "multiply_defined_labels": 0
+    },
+    "bibliography_order": "numbered in order of first citation (checked by script; no missing or uncited keys)"
+  },
+  "review_claims_checked": {
+    "source": "Assessment_for_Claude_coboson_v5.md (30 October 2026)",
+    "numerical_claims_verified_against_data": [
+      "p_raw range 2.6% (S=13) to 13.5% (S=58)",
+      "fidelity minimum 0.6425 at S=71 (+ convention), 0.6313 at S=64 (- convention)",
+      "S=13-19 spans of p_0.6, t_0.6, p_0.4, t_0.4 at z=0.5, 0.6",
+      "Table 2: w=4 p_0.6 = 0.598%",
+      "Kaniewski bound B* = (16+14 sqrt2)/17 = 2.1058"
+    ],
+    "analytical_claims_verified": [
+      "[B,[B,B^dagger]] = -2 sum lambda^{3/2} d_k annihilates the vacuum",
+      "Q_r = -r sqrt2 p-hat",
+      "D(z)D(w) = e^{(zw*-z*w)/2} D(z+w)",
+      "nonatomicity lemma and strong-convergence proposition (incorporated as Lemma 2, Proposition 2)",
+      "Q_r = (r/b) i^N Q_w i^{-N} (numerical check, 3 modes)"
+    ]
+  },
+  "limitations": [
+    "Full historical flat and nonflat scans were retained, not regenerated.",
+    "Lanczos diagnostics are not certified discontinuous-filter error bounds.",
+    "No claim of a hard-bin asymptotic rate; the infinite-mode fixed-purity probabilities are shown to converge at all but countably many cutoffs, not at the specific cutoffs used, and their positivity is conjectural.",
+    "Prose statistics of the flat scan (window minima, maxima, medians) are read from the archived JSON, not independently recomputed.",
+    "Numerical tests are not machine proofs of the analytical arguments."
+  ]
+}

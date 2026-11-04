@@ -1,0 +1,37 @@
+{
+  "coboson_paper_equation_unchanged": 51,
+  "coboson_paper_align_unchanged": 0,
+  "coboson_paper_gather_unchanged": 0,
+  "coboson_paper_figure_unchanged": 5,
+  "coboson_paper_table_unchanged": 7,
+  "coboson_paper_proposition_unchanged": 3,
+  "coboson_paper_lemma_unchanged": 2,
+  "coboson_paper_proof_unchanged": 5,
+  "coboson_paper_intro_conclusion_before_words": 2490,
+  "coboson_paper_intro_conclusion_after_words": 1967,
+  "undergrad_version_equation_unchanged": 52,
+  "undergrad_version_align_unchanged": 0,
+  "undergrad_version_gather_unchanged": 0,
+  "undergrad_version_figure_unchanged": 5,
+  "undergrad_version_table_unchanged": 7,
+  "undergrad_version_proposition_unchanged": 3,
+  "undergrad_version_lemma_unchanged": 2,
+  "undergrad_version_proof_unchanged": 5,
+  "undergrad_version_intro_conclusion_before_words": 2772,
+  "undergrad_version_intro_conclusion_after_words": 2249,
+  "data_files_byte_identical": true,
+  "reproduce_preserves_test_failure_exit_code": 17,
+  "research_pages": 27,
+  "research_acknowledgments_pages": [
+    21
+  ],
+  "undergrad_pages": 31,
+  "undergrad_acknowledgments_pages": [
+    25
+  ],
+  "revision": "v10.11",
+  "date": "2026-11-04",
+  "shortening": "523 source whitespace-delimited words removed from the shared introduction and conclusion; no change to the abstract or numbered scientific results.",
+  "visual_review": "All pages inspected; no clipping, overlap, unresolved references or overfull boxes found.",
+  "original_repository_modified": false
+}
